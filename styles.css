@@ -1,0 +1,110 @@
+:root {
+    --background-color1: #232323;
+    --primary: #9E0DFF;
+    --secondary: #c250ff;
+    --hover: #d181fc;
+    --active: #dea1ff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-color1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.converter {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  color: white;
+  font-family: Sans-Serif;
+  font-size: 44px;
+  font-weight: 600;
+
+  background-color: var(--primary);
+  padding: 10px;
+  border-radius: 50px;
+
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.converter-body {
+  margin-top: 10px;
+  border: 2px solid white;
+  border-radius: 22px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.instruction {
+  color: white;
+  font-family: Sans-Serif;
+  font-size: 20px;
+}
+
+.convert-part{
+  display: flex;
+  flex-direction: row;
+}
+
+.input {
+  color: var(--background-color1);
+  font-family: Sans-Serif;
+  font-size: 20px;
+  font-weight: 500;
+
+  border: none;
+  border-radius: 20px 0px 0px 20px;  
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+               
+}
+
+.convert-button {
+  color: white;
+  font-family: Sans-Serif;
+  font-size: 20px;
+  font-weight: 500;
+
+  background-color: var(--secondary);
+  border: none;
+  border-radius: 0px 20px 20px 0px;
+  padding: 10px;
+}
+
+.convert-button:hover {
+  background-color: var(--hover);
+}
+
+.convert-button:active {
+  background-color: var(--active);
+}
+
+.result {
+  color: white;
+  font-family: Sans-Serif;
+  font-size: 20px;
+  font-weight: 500;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+.patryk {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  color: white;
+}
